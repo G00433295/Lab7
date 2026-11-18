@@ -9,9 +9,9 @@ export default function MovieItem(props) {
             <img src={props.mymovie.Poster}></img>
 
             <Card style={{ width: '200px' , height: '200px'}}>
-      <Card.Img variant="top" src={props.mymovie.Poster} />
+      <Card.Img variant="top" src={props.mymovie.poster} />
       <Card.Body>
-        <Card.Title>{props.mymovie.Title}</Card.Title>
+        <Card.Title>{props.mymovie.title}</Card.Title>
         <Card.Text>
           {props.mymovie.Year}
         </Card.Text>
